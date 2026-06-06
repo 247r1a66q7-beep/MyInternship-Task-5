@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Expense Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Expense Tracker</h1>
+
+        <p>
+            Simple expense tracker using HTML,
+            CSS and JavaScript.
+        </p>
+
+        <input
+        type="text"
+        id="expenseName"
+        placeholder="Enter expense name">
+
+        <input
+        type="number"
+        id="expenseAmount"
+        placeholder="Enter amount">
+
+        <button onclick="addExpense()">
+
+            Add Expense
+
+        </button>
+
+        <div id="expenseList">
+
+        </div>
+
+        <h3 id="total">
+
+            Total Expense: ₹0
+
+        </h3>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
